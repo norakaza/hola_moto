@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  brand: MyString
+  name: MyString
+  year: 1
+  type: 
+  mileage: 1
+  parking: MyString
+  address: MyString
+
+two:
+  brand: MyString
+  name: MyString
+  year: 1
+  type: 
+  mileage: 1
+  parking: MyString
+  address: MyString
