@@ -1,2 +1,9 @@
-<h1>Motos#show</h1>
-<p>Find me in app/views/motos/show.html.erb</p>
+<h1><%= @moto.name %> <%= @moto.brand %></small></h1>
+
+<h2><%= @moto.year %></h2>
+<h2> Type: <%= @moto.moto_type %> Mileage: <%= @moto.mileage %></h2>
+<p>Parking type: <%= @moto.parking %></p>
+
+<!-- <li><%#= link_to moto.name, moto_path(moto) %></li> -->
+
+ <%= link_to "View all", moto_path(moto)%>
